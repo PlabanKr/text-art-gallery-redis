@@ -5,16 +5,33 @@
     margin-right: auto;
 }
 
-.cardContainer {
-    margin-top: 5rem;
+.createBody {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.navbarWrapper {
-    position: relative;
+.canvas {
+    resize: none;
+}
+
+.formContainer {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement {
+    margin-top: 0.6rem;
 }
 
 @media (min-width: 768px) {
     .container {
+        padding: 0rem;
         width: 700px;
     }
 }
