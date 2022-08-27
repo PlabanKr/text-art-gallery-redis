@@ -1,4 +1,4 @@
-import { Heart } from "react-bootstrap-icons";
+// import { Heart } from "react-bootstrap-icons";
 import styles from "../styles/Card.module.css";
 
 const Card = ({art, artName, author}) => {
