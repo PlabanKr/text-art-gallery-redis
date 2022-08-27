@@ -7,6 +7,8 @@
 
 .cardArt {
     min-height: 22vh;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .cardInfo {
