@@ -1,9 +1,10 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Navbar from '../components/Navbar';
 import styles from '../styles/Create.module.css';
 
 export default function Create() {
-
+    const router = useRouter();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -19,7 +20,8 @@ export default function Create() {
         });
 
         const result = await res.json();
-        console.log(result);
+        // console.log(result);
+        router.push("/");
     }
 
     return (
